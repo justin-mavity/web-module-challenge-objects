@@ -19,13 +19,11 @@ const breakfastBurrito = {
 /* Task 1a: write a function to return more menu items with the same format as the items above. */
 
 function createMenuItem(name, price, category) {
-
-  let item = {
-    name: name,
-    price: price,
-    category: category
+  return {
+    name,
+    price,
+    category
   };
-  return item;
 }
 
 
